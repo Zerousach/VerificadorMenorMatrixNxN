@@ -47,11 +47,6 @@ int ** ReductorMatriz(int tamanio, int ** matriz, int tamanioOriginal, int canti
 			matrizNueva[i][j-(tamanio/2)] = matriz[i-(tamanioNuevo/2)][j];
 		}
 	}
-	/*for(i= 0; i < tamanioNuevo; i++){
-		for(j = 0; j < tamanio/2; j++){
-			printf("%d_",matrizNueva[i][j]);
-		}
-	}*/
 	return matrizNueva;
 }
 int busquedaMenor2x2(int ** matriz, int repeticion, int tamanioOriginal){
